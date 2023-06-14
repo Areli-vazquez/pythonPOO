@@ -37,11 +37,20 @@ for i in range(1, 10, 1):
 frutas = ['piña', 'pera', 'manzana', 'fresa', 'aguacate']
 for numero in frutas:
     print(numero)
-
+print("-----")
+#break y continue
 for numero in frutas:
     if numero == "manzana":
         break  # ó continue
     print(numero)  # imprime la fruta
+print("Fin")
+
+#While
+tam = 0
+while tam < 10:
+    print(tam)
+    tam = int(input("Dame un número entero:"))
+print("Final")
 
 #FUNCIONES
 from aritmetica import suma, resta
